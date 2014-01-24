@@ -42,6 +42,7 @@
 		6A0E1D05D71E40B49EC73A47 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F3167860164107825BBF18 /* CDVCamera.m */; };
 		37E0215C02CB4BCE87E9ABE2 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DADE438151946EC80F95996 /* CDVJpegHeaderWriter.m */; };
 		CD2EB4BFD03A48B4815ABC98 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84C06F93B5C4353A63DEE83 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E4F8680250D84607A4CC181C /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A53B93DF0DE4D6D82E456F9 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,8 @@
 		185DA00726BC4EEAACFC277F /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVJpegHeaderWriter.h"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		AA9AE31F45754D89BBE8EFEB /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVExif.h"; path = "org.apache.cordova.camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		A84C06F93B5C4353A63DEE83 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		0A53B93DF0DE4D6D82E456F9 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DFF17BF5C3CA4B2A83CE56D6 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +237,8 @@
 				27D31119C3734B26B8E3E0BB /* CDVCamera.h */,
 				185DA00726BC4EEAACFC277F /* CDVJpegHeaderWriter.h */,
 				AA9AE31F45754D89BBE8EFEB /* CDVExif.h */,
+				0A53B93DF0DE4D6D82E456F9 /* CDVInAppBrowser.m */,
+				DFF17BF5C3CA4B2A83CE56D6 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -421,6 +426,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				6A0E1D05D71E40B49EC73A47 /* CDVCamera.m in Sources */,
 				37E0215C02CB4BCE87E9ABE2 /* CDVJpegHeaderWriter.m in Sources */,
+				E4F8680250D84607A4CC181C /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
