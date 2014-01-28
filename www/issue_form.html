@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InAppBrowser.addEventListener Example</title>
+
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen" title="main">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    $(function(){
+      // Wait for Cordova to load
+      //
+      document.addEventListener("deviceready", onDeviceReady, false);
+
+      function onDeviceReady() {
+        $('#browse-scf').click(function(){
+          var ref = window.open('http://www.creaxon.com/urs/ktr', '_blank', 'location=yes');
+        });
+      }
+    });
+
+    </script>
+  </head>
+  <body>
+    Form
+  </body>
+</html>
+
